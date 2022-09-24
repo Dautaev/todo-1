@@ -1,0 +1,54 @@
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.div {
+    width: 350px; 
+    position: relative;
+    margin-left: 70px
+  }
+
+  .div input {
+    width: 70%;
+    height: 23px;
+    font-size: 11px;
+    outline: none;
+    padding-left: 10px;
+    margin-right : 5px;
+    border : 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .div button {
+    width: 20%;
+    height: 24px;
+    background-color:  #00bfff;
+    border : 0;
+    top : 1px;
+    position: absolute;
+    border-radius: 4px;
+    cursor: pointer;
+    color : #fff
+  }
+
+  .li {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .li button {
+    cursor: pointer;
+    background-color: red;
+    border : 0;
+    border-radius: 4px;
+    color : #fff
+  }
+
+
+  
+  
